@@ -1,4 +1,4 @@
-package strings;
+
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -10,9 +10,11 @@ public class Permutations {
 	static Set<String> uniqueCombinations = new HashSet<String>();
 
 	/**
-	 * Move the first character to last in the string to form a new string and then check if the new string is not in the set.
-	 * If it is not in the Set then add it to the Set.
-	 * Repeat the process for newly formed string until newly formed string is not exists in the Set.
+	 * Move the first character to last in the string to form a new string and then
+	 * check if the new string is not in the set. If it is not in the Set then add
+	 * it to the Set. Repeat the process for newly formed string until newly formed
+	 * string is not exists in the Set.
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
